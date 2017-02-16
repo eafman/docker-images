@@ -36,10 +36,4 @@ LABEL org.freenas.version="false"                       \
               \"descr\": \"log files\"                  \
           }                                             \
       ]"
-      org.freenas.settings="[ 						\
-          {								\
-              \"env\": \"TZ\",						\
-              \"descr\": \"Timezone information, eg America/New_York\",	\
-              \"optional\": true					\
-          }
-      ]"
+     -v /mnt/tank/Graphite/conf:/opt/graphite/conf \

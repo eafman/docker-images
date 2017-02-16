@@ -10,7 +10,7 @@ LABEL org.freenas.version=1                             \
       org.freenas.port-mappings="80:5080/tcp,2003:2003/tcp,2004:2004/tcp,2023:2023/tcp,2024:2024/tcp,8125:8125/tcp,8126:8126/tcp"                                       \
       org.freenas.volumes="[                            \
           {                                             \
-              \"name\": \"/opt/graphite/conf\",         \
+              \"/mnt/tank/Graphite/conf\": \"/opt/graphite/conf\",         \
               \"descr\": \"graphite config\"            \
           },                                            \
           {                                             \

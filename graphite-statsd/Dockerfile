@@ -36,4 +36,3 @@ LABEL org.freenas.version="false"                       \
               \"descr\": \"log files\"                  \
           }                                             \
       ]"
-     -v /mnt/tank/Graphite/conf:/opt/graphite/conf \

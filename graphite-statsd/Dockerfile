@@ -31,8 +31,11 @@ LABEL org.freenas.version="false"                       \
               \"name\": \"/etc/logrotate.d\",           \
               \"descr\": \"logrotate config\"           \
           },                                            \
-          {                                             \
-              \"name\": \"/var/log\",                   \
-              \"descr\": \"log files\"                  \
-          }                                             \
       ]"
+      org.freenas.static-volumes="[					\
+          {								\
+              \"container_path\": \"/host/tank/Graphit1/log\",				\
+              \"host_path\": \"/var/log\",				\
+              \"readonly\": \"false\"					\
+          }								\
+      ]" 
